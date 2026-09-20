@@ -83,3 +83,29 @@ Na validação cruzada estratificada com 5 folds:
 ├── images/
 ├── requirements.txt
 └── README.md
+Como executar
+
+Clone o repositório:
+
+git clone URL_DO_REPOSITORIO
+
+Entre na pasta:
+
+cd student-performance-ml
+
+Instale as dependências:
+
+pip install -r requirements.txt
+
+Abra o arquivo:
+
+student_performance.ipynb
+
+Também é possível executar o notebook utilizando o Google Colab.
+
+Autor
+
+Pedro Henrique Loureiro de Avila
+
+Sistemas de Informação - AMF
+Inteligência Artificial II - 2026/02
