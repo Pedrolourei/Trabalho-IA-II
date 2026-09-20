@@ -71,41 +71,76 @@ Na validação cruzada estratificada com 5 folds:
 
 ## Estrutura
 
+## 📁 Estrutura do projeto
+
 ```text
-.
+student-performance-ml/
+│
 ├── student_performance.ipynb
+│
 ├── data/
 │   └── student-mat.csv
+│
 ├── models/
 │   └── modelo_student_performance.pkl
+│
 ├── reports/
 │   └── Relatorio_Student_Performance_IA_II.pdf
+│
 ├── images/
+│
 ├── requirements.txt
+├── .gitignore
 └── README.md
-Como executar
+```
 
-Clone o repositório:
+## 🚀 Como executar
 
+### 1. Clone o repositório
+
+```bash
 git clone URL_DO_REPOSITORIO
+```
 
-Entre na pasta:
+### 2. Entre na pasta do projeto
 
+```bash
 cd student-performance-ml
+```
 
-Instale as dependências:
+### 3. Instale as dependências
 
+```bash
 pip install -r requirements.txt
+```
+
+### 4. Execute o notebook
 
 Abra o arquivo:
 
-student_performance.ipynb
+`student_performance.ipynb`
 
-Também é possível executar o notebook utilizando o Google Colab.
+O notebook também pode ser executado utilizando o Google Colab.
 
-Autor
+## 📊 Principais resultados
 
-Pedro Henrique Loureiro de Avila
+O modelo Random Forest com as notas G1 e G2 apresentou:
 
-Sistemas de Informação - AMF
-Inteligência Artificial II - 2026/02
+- Acurácia no conjunto de teste: **91,14%**
+- Precision para Reprovado: **88%**
+- Recall para Reprovado: **85%**
+- F1-score para Reprovado: **86%**
+- ROC-AUC: **0,975**
+
+Na validação cruzada estratificada com 5 folds:
+
+- Acurácia média: **90,9% ± 3,3%**
+- F1 macro médio: **89,7% ± 3,9%**
+- Recall médio para Reprovado: **87,7% ± 7,8%**
+
+## 👨‍💻 Autor
+
+**Pedro Henrique Loureiro de Avila**
+
+Sistemas de Informação — AMF  
+Inteligência Artificial II — 2026/02
